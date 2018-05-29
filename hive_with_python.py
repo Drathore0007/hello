@@ -11,4 +11,6 @@ start = time.time()
 df  = pd.read_sql("select * from youtube.youtube_new limit 20", conn)
 end = time.time()- start
 print(df.head())
+print("this is time")
 print(end)
+
